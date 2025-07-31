@@ -1,6 +1,8 @@
 #!/bin/bash
 # name: 🛠 Arduino Projects
-
+# details:
+#   This assumes that the format of the Arduino project repository is the ff:
+#   ~/Arduino/<board_short_name>/<project_name>/
 # --- MAPPED FQBNs ---
 declare -A fqbn_map=(
   [esp32c3]="esp32:esp32:esp32c3"
